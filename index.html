@@ -1,74 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    <title>Portfolio</title>
+    <title>Poultry Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bbb">
-    <div class="navv">
-        <h1 class="folio">PORTFOLIO</h1>
-        <h1 class="hello">HELLO</h1>
-        <h1 class="name">NAFEEL AOHAMED N</h1>
-    </div>
 
-    <div class="about">
-        <h1 class="l">About Me</h1>
-        <p class="me">
-            I am a second-year student in the Computer Science and Engineering department. 
-            I know HTML, CSS, and C++. I have a basic understanding of web development using HTML and CSS. 
-            I also know C++ and understand the basics of Object-Oriented Programming (OOP). 
-            As a fresher, I am eager to learn more and improve my skills in coding and development.
-        </p>
-    </div>
+<div class="box">
+    <h2>Poultry Calculator</h2>
 
-    <div class="skill">
-        <h1 class="s">Skills</h1>
-        <ul class="ss">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C++</li>
-        </ul>
-    </div>
+    <input id="legs" type="number" placeholder="Legs Needed">
+    <input id="wings" type="number" placeholder="Wings Needed">
+    <input id="flesh" type="number" placeholder="Flesh Portions">
 
-    <div class="education">
-        <h1 class="e">Education</h1>
-        <div class="ee">
-            <h2 class="h">Higher-Secondary Education</h2>
-            <h3>91.5% in higher secondary education</h3>
-        
-        
-            <h2 class="hh">B.E COMPUTER SCIENCE ENGINEERING</h2>
-            <h3>Second-year student, CGPA: 8.32</h3>
-        </div>
-    </div>
+    <button onclick="calculate()">Calculate</button>
 
-    <div class="project">
-        <h1 class="w">Projects</h1>
-        <div class="pp">
-        <h3>CGPA Calculator</h3>
-        <h3>AMAZON STATIC CLONE - using HTML, CSS</h3>
-        </div>
-    </div>
+    <div id="output"></div>
+</div>
 
-    <div class="competition">
-        <h1 class="z"  >Hackathon Competition</h1>
-        <div class="zz">
-        <h2>Blockathon</h2>
-        <h4>Event conducted by college to build a CGPA Calculator</h4>
-        </div>
-    </div>
-
-    <div class="contact">
-        <h1 class="x">Contact</h1>
-        <div class="xx">
-        <h3>+91 6379838437</h3>
-        <h3>nafeel0403@gmail.com</h3>
-        </div>
-    </div>
-    </div>
-
+<script src="script.js"></script>
 </body>
 </html>
