@@ -1,105 +1,33 @@
-.folio{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: aqua;
-    
-    
-    
+body {
+    margin: 0;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
 }
-.hello{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: aqua;
-    animation: normal;
-}
-.name{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: aqua;
-    animation: normal;
-}
-.navv{
-    background-color:black;
-}
-.l{
-    font-style: oblique;
-    font-weight :800;
 
+.box {
+    width: 260px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 60px auto;
+}
 
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
 }
-.me{
-    text-size-adjust: 74;
-    font-style: italic;
-}
-.college{
-    border-right: 50px;
 
+button {
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-}
-.about{
-    background-color: black;
-    color:blueviolet
-}
-.me{
-    color: aquamarine;
-}
-.skill{
-    background-color:black;
-}
-.s{
-    color:blueviolet;
-}
-.ss{
-    color:aquamarine
-}
-.education{
-    background-color:black;
-}
-.e{
-    color:blueviolet;
-}
-.ee{
-    color: aquamarine;
-}
-.h{
-    color:blanchedalmond;
-}
-.hh{
-    color:blanchedalmond;
-
-}
-.project{
-    color:blueviolet;
-    background-color: black;
-
-}
-.pp{
-    color:aquamarine;
-    
-
-}
-.competition{
-    background-color: black;
-}
-.z{
-    color: blueviolet;
-}
-.zz{
-    color: aquamarine;
-}
-.contact{
-    background:black;
-}
-.x{
-    color:blanchedalmond
-}
-.xx{
-    color: aquamarine;
-}
-.bbb{
-    background-color: black;
-    min-height: 100vh;
+#output {
+    margin-top: 10px;
+    font-size: 14px;
 }
